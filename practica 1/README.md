@@ -16,6 +16,44 @@
 ## Descripción General
 El objetivo de la práctica es escribir un programa en C que monitoree y registre en un log todas las llamadas al sistema realizadas por los procesos hijos creados por un proceso padre. Este monitoreo se realiza utilizando SystemTap para interceptar dichas llamadas.
 
+## Instrucciones de Ejecución
+
+#### Instalación de SystemTap
+SystemTap es una herramienta utilizada para monitorear el funcionamiento del kernel y recoger información sobre el sistema. 
+Para instalar SystemTap y las cabeceras del kernel necesarias, ejecuta el siguiente comando en tu terminal:
+
+    apt install systemtap linux-headers-$(uname -r)
+
+* apt install systemtap: Instala el paquete SystemTap.
+* linux-headers-$(uname -r): Instala las cabeceras del kernel para la versión del kernel que estás ejecutando actualmente. uname -r retorna la versión del kernel, y el comando en conjunto asegura que se instalan las cabeceras correspondientes a esa versión.
+
+#### Compilación del Código Fuente
+Para compilar el código fuente, necesitarás el compilador gcc. Aquí hay dos pasos separados para compilar el código del proceso padre y el del proceso hijo.
+
+#### Compilación del Módulo del Proceso Padre
+El proceso padre se compone de múltiples archivos de código fuente: main.c, monitor.c, stat.c y signal_handler.c. Estos archivos se deben compilar juntos para crear un ejecutable llamado main.
+
+Ejecuta el siguiente comando para compilar el proceso padre:
+
+    gcc main.c monitor.c stat.c signal_handler.c -o main -lpthread
+
+* main.c: Archivo principal que contiene la lógica principal del programa.
+* monitor.c: Archivo que contiene la lógica para monitorear las llamadas al sistema de los procesos hijo.
+* stat.c: Archivo que contiene la lógica para calcular y mostrar las estadísticas de las llamadas al sistema.
+* signal_handler.c: Archivo que contiene la lógica para manejar las señales.
+* -o main: Especifica el nombre del archivo ejecutable de salida, en este caso main.
+* -lpthread: Linkea con la librería de pthread, que es necesaria para el manejo de hilos.
+
+#### Compilación del Módulo del Proceso Hijo
+El proceso hijo tiene su propio archivo de código fuente main.c (el nombre del archivo puede ser el mismo, pero está en un contexto diferente). Este archivo se compila para crear un ejecutable llamado main.bin.
+
+Ejecuta el siguiente comando para compilar el proceso hijo:
+
+    gcc main.c -o main.bin
+
+* main.c: Archivo que contiene la lógica del proceso hijo.
+* -o main.bin: Especifica el nombre del archivo ejecutable de salida, en este caso main.bin.
+
 ## Procesos
 
 #### Proceso Padre (parent.c)
