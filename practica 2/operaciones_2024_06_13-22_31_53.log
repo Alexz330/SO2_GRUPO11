@@ -1,0 +1,38 @@
+--- Reporte de Operaciones Masivas ---
+Hilo 0 procesó 44 operaciones
+Hilo 1 procesó 42 operaciones
+Hilo 2 procesó 42 operaciones
+Hilo 3 procesó 42 operaciones
+Total de operaciones procesadas por todos los hilos: 170
+
+Operaciones inválidas:
+Línea: 51, Operación: 4, Cuenta1: 9439, Cuenta2: 8074, Monto: 3573.52, Error: Identificador de operación no existe
+Línea: 52, Operación: -1, Cuenta1: 5843, Cuenta2: -1, Monto: 0.00, Error: Número de cuenta2 no existe
+Línea: 63, Operación: 5, Cuenta1: 3033, Cuenta2: 3974, Monto: 2559.13, Error: Identificador de operación no existe
+Línea: 64, Operación: -1, Cuenta1: 7717, Cuenta2: -1, Monto: 0.00, Error: Número de cuenta1 no existe
+Línea: 72, Operación: 1, Cuenta1: 3594, Cuenta2: 0, Monto: -1262.15, Error: Monto no válido o número de cuenta no válido
+Línea: 79, Operación: 2, Cuenta1: 9470, Cuenta2: -1, Monto: 123686.04, Error: Saldo insuficiente para retiro
+Línea: 80, Operación: 4, Cuenta1: 1927, Cuenta2: 5086, Monto: 2697.90, Error: Identificador de operación no existe
+Línea: 86, Operación: 6, Cuenta1: 7190, Cuenta2: 1648, Monto: 1440.00, Error: Identificador de operación no existe
+Línea: 110, Operación: 3, Cuenta1: 3959, Cuenta2: 8364, Monto: 3269.63, Error: Saldo insuficiente para transferencia
+Línea: 124, Operación: 3, Cuenta1: 1073, Cuenta2: 3031, Monto: -72.48, Error: Monto no válido o número de cuenta no válido
+Línea: 129, Operación: 2, Cuenta1: 4929, Cuenta2: -1, Monto: 54653.51, Error: Saldo insuficiente para retiro
+Línea: 130, Operación: 4, Cuenta1: 2770, Cuenta2: 6941, Monto: 1754.39, Error: Identificador de operación no existe
+Línea: 140, Operación: 1, Cuenta1: 7261, Cuenta2: 0, Monto: -13.42, Error: Monto no válido o número de cuenta no válido
+Línea: 141, Operación: 3, Cuenta1: 3959, Cuenta2: 6219, Monto: 1749.89, Error: Saldo insuficiente para transferencia
+Línea: 145, Operación: 9, Cuenta1: 7443, Cuenta2: 6941, Monto: 1982.10, Error: Identificador de operación no existe
+Línea: 147, Operación: 3, Cuenta1: 4024, Cuenta2: 5877, Monto: 2169.98, Error: Saldo insuficiente para transferencia
+Línea: 10, Operación: 3, Cuenta1: 1944, Cuenta2: 7053, Monto: -90.90, Error: Monto no válido o número de cuenta no válido
+Línea: 19, Operación: 4, Cuenta1: 5167, Cuenta2: 3033, Monto: 3162.05, Error: Identificador de operación no existe
+Línea: 25, Operación: 2, Cuenta1: 3959, Cuenta2: -1, Monto: 1500.00, Error: Saldo insuficiente para retiro
+Línea: 28, Operación: 2, Cuenta1: 1156, Cuenta2: -1, Monto: 104799.60, Error: Saldo insuficiente para retiro
+Línea: 38, Operación: 4, Cuenta1: 5877, Cuenta2: 2573, Monto: 190.00, Error: Identificador de operación no existe
+Línea: 39, Operación: 2, Cuenta1: 5350, Cuenta2: -1, Monto: 14830.20, Error: Saldo insuficiente para retiro
+Línea: 173, Operación: 1, Cuenta1: 7261, Cuenta2: 0, Monto: -413.57, Error: Monto no válido o número de cuenta no válido
+Línea: 179, Operación: 3, Cuenta1: 1156, Cuenta2: 1001, Monto: 2007.51, Error: Saldo insuficiente para transferencia
+Línea: 180, Operación: 3, Cuenta1: 4972, Cuenta2: 3959, Monto: 82683.60, Error: Saldo insuficiente para transferencia
+Línea: 184, Operación: 1, Cuenta1: 7098, Cuenta2: 0, Monto: -44.22, Error: Monto no válido o número de cuenta no válido
+Línea: 187, Operación: 1, Cuenta1: 9439, Cuenta2: 0, Monto: -52.76, Error: Monto no válido o número de cuenta no válido
+Línea: 195, Operación: 5, Cuenta1: 5349, Cuenta2: 0, Monto: 290.00, Error: Identificador de operación no existe
+Línea: 197, Operación: -1, Cuenta1: 3328, Cuenta2: -1, Monto: 0.00, Error: Número de cuenta2 no existe
+Línea: 200, Operación: 3, Cuenta1: 2770, Cuenta2: 8805, Monto: 190802.79, Error: Saldo insuficiente para transferencia

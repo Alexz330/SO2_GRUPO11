@@ -1,0 +1,13 @@
+--- Reporte de Carga Masiva de usuarios---
+Hilo 0 procesó 31 cuentas
+Hilo 1 procesó 32 cuentas
+Hilo 2 procesó 34 cuentas
+Total de cuentas procesadas por todos los hilos: 97
+--- Errores encontrados ---
+Línea 41: Saldo negativo
+Línea 56: Número de cuenta duplicado
+Línea 69: Número de cuenta duplicado
+Línea 1: Número de cuenta duplicado
+Línea 5: Número de cuenta duplicado
+Línea 19: Saldo negativo
+Línea 31: Número de cuenta duplicado
